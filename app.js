@@ -1,5 +1,6 @@
 // const socket = io('https://adda-chat.herokuapp.com/');
-const socket = io('adda-chat-server-production.up.railway.app');
+// const socket = io('adda-chat-server-production.up.railway.app');
+const socket = io('https://add-chat-0.onrender.com');
 // const socket = io('http://localhost:8080');
 
 socket.on('message', (data) => {
